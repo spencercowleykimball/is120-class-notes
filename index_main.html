@@ -1,0 +1,231 @@
+<!-- command shift p to open up the search bar
+search for settings, choose the settings option
+
+doctype = document type html
+
+head behind the scenes
+body is what is actually being viewed
+viewport adjusts to the size of the device being used 
+
+every element can have id and class, every id should be unique, and
+the class can be the same across different elements.
+
+Never say "Click Here", for the text on a button or link. 
+
+copy image address, or open image in new tab and copy the html -->
+
+
+
+<!-- picsum.photos -->
+
+<!-- At my table, Asher and Aaron -->
+
+<!-- HELPFUL TIPS and TRICKS
+The short cut for comments is command and forwards slash
+Required pieces of the header is an H1 tag and a P tag, and maybe a picture
+mailto: is the a tag to open up their last opened email application
+tel: is the a tag to have them call the phone number
+Make sure to add the controls option for the video and audio tags 
+iframe tag is used to embed videos or other websites into a small frame on your website
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- This is the header -->
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>This is my title</title>
+
+    <link rel="stylesheet" href="style.css">
+
+  </head>
+
+  <body>
+  <main>
+    <!-- Here is my main! -->
+    <h1>My First Website!</h1>
+    <h2>IS 120 - Taught by Tanner Atkin</h2>
+    <p>
+      Classmates - <strong>James Day</strong> and <strong>Asher</strong> and <strong>Aaron </strong> from Canada at the table back right table. 
+      Asher has a 4 month old named Priscilla (came from the new Elvis Movie). 
+      <br>
+      <br>
+      <!-- Advanced css -->
+      Day - 5
+      float: right
+      Tanner said to avoid float for images unless for a very specific use case within text.
+      Pseudo class selecting its current state
+      <br>
+      Hover - 
+      <br>
+      <a href="https://example.com" class="button" target="_blank">Example</a>
+      <br>
+      button -> set properties <br>
+      button transition property to set changing between the two :) <br>
+      button:hover -> set properties <br>
+      <br>
+      Put hover after the element/class that you are changing for better readability
+
+      <br>
+      Active is what happens when clicked, minor color change is ideal. Doesn't need to 
+      be anything crazy.
+
+      <br>
+      <br>
+      :before and 
+      :after are completely defined within the css file. And they are just another way to 
+      keep your html clean and add stuff to the html without needing a div
+      <br>
+      An id's styles are selected over an element.
+
+      <br>
+      <br>
+      !important inside of a css element or tag will override literally anything else. It is 
+      the death star override of css.
+
+      <br>
+      <br>
+      Day 3 - Right click on the markdown file and choose open preview
+      <br>
+      
+      
+      <br>
+      <br>
+      Day 2 - Learned about <strong>Strong</strong> and <em>emphasis</em> which highlights a specific
+      word.
+
+      <span>Span</span> which prevents additional formatting to be associated
+      with what is wrapped in the span tag. <br />
+      Break tag, self closing tag and starts a new line.
+      <br />
+      <section> 
+        Learned about ordered and unordered lists. Then the li will make each list number.
+        <ol>
+          <li>Item number one.</li>
+          <li>Item number two.</li>
+        </ol>
+      </section>
+      <br />
+      This is an anchor tag which links to a website, and including the target is blank will open the link in a new tab.
+      Anchor tags will always be navigation based.
+      <a href="https://example.com" target="_blank">Example</a>
+      <br /> W3 schools is going to be a super helpful reference if there is anything that I don't really understand.
+      <br />
+      <br />
+      <button>Add to cart</button> Buttons will always be triggering an action.
+    
+      <br />
+      <br />
+
+      <!-- The short cut for comments is command and forwards slash -->
+      The alt tag is the shorter name that the image will be known as or be referenced as.
+      <br>
+
+      <img width="100px" src="prof_head_shot.jpg" alt="Professional Head Shot" />
+
+      <br>
+
+      <!-- Doesn't show up as section 1 anywhere -->
+      <div id="section1"></div>
+      
+      <!-- Link to where the div section 1 div is at -->
+      <a href="#section1">Go to section 1</a>
+
+      <a href="tel:0000000000">0000000000</a>
+
+      <!-- CSS Class Time -->
+       <div>
+        Div is a general container, can add class
+       </div>
+      
+      <br>
+
+      </p>
+
+      <p>
+        p tags are for large blocks of text
+      </p>
+      <br>
+      <span>
+        SPAN tags Can be included inside of p tags for even more specific styling.
+      </span>
+      <br>
+      <h1>
+        Learning CSS
+      </h1>
+      <br>
+      <br>
+      <p>
+        id inside of something should be used as a unique tag. Don't name something the same id name.
+        Inside of the css file.
+        <ul>
+          <li>
+            Element should be a tag that already exists. 
+          </li>
+          <li>
+            Class starts with a . aka a period 
+          </li>
+          <li>
+            "id" starts with a hashtag.     
+          </li>
+        </ul> 
+
+
+        <br>
+        Helpful link to learn css: https://flukeout.github.io/
+      </p>
+
+        <p>
+        <h2 style="background-color: rgb(155, 26, 26);">Learning how to style tags</h2>
+        </p>
+        <p class="cheese"> Boom. Cheese style class. With opacity option</p>
+
+        <h2> Color Picking for CSS styles, tags, elements, id's</h2>
+
+        <br>
+          Use this website to select colors:  https://www.w3schools.com/tags/ref_colornames.asp
+
+          <br>
+          or this one: https://codepen.io/lsburton/pen/QWgGOGK?editors=1100 for rgb
+          <br>
+          or this one: for HSL which might be a good preference: https://codepen.io/HunorMarton/pen/dvXVvQ/
+        <br>
+        Can choose opacity in the css.
+        <br>
+        We want to use REM when choosing font size and not use actual font size otherwise it won't adjust to the specific user.
+        <br>
+         <h3>This is an h3 tag with a font-weight. font-weight from 100-900 which goes from light to heavy black.</h3> 
+        <br>
+        text-align has center, middle, left, right.
+        <br>
+        text-decoration means underline, dash, line-through, etc.
+        <br>
+        font-style is where you can change text to italics.
+        <br>
+
+        </main>
+
+
+      <details>
+        <summary>
+          Export center
+        </summary>
+        <p>
+          <!-- Looks like you need a p tag in order to have the drop down arrow option to show up -->
+          Here is the details and summary filler.
+        </p>
+      </details>
+
+      
+
+      <nav></nav>
+    
+    
+
+    <footer>
+      The footer should include the disclaimers and links.
+    </footer>
+  </body>
+  
+</html>

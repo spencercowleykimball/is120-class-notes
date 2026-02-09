@@ -1,0 +1,58 @@
+/* External */
+h1 {
+  border: 2px navy;
+  background-color: red;
+}
+
+.cheese {
+  background-color: yellow;
+  opacity: 30%;
+}
+
+/* A dot . first is a class selector */
+
+/* width and height */
+h1 {
+  height: 100 px;
+  width: 1000 px;
+}
+
+h2 {
+  min-width: 100 px;
+}
+
+/* Font */
+h3 {
+  font-family: "Urbanist", sans-serif;
+  /* rem is font size units */
+  font-size: 2rem;
+  font-weight: 100;
+}
+
+.button {
+  text-decoration: none;
+  font-family: fantasy;
+  color: black;
+  border: 1px solid black;
+  border-radius: 5px;
+  padding: 0.25rem 1rem;
+  margin: 20px;
+
+  /* Important transition property for the hover aspect */
+  /* takes a 1/2 second to transition between the regular */
+  /* button color properties and the hover button properties */
+  transition: 0.5s;
+}
+
+.button:hover {
+  background-color: rgb(233, 94, 94);
+}
+
+/* when the button is clicked */
+.button:active {
+  background-color: black;
+}
+
+.button::before {
+  content: "test ";
+}
