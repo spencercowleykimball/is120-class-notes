@@ -1,0 +1,23 @@
+.card {
+  position: relative;
+  width: 200px;
+  padding: 20px;
+  background-color: aqua;
+  text-align: center;
+}
+
+.badge-icon {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+}
+
+h1,
+p {
+  text-align: center;
+  margin: 0px;
+}
+
+body {
+  min-height: 100vh;
+}
