@@ -13,3 +13,10 @@ variableName = 1;
 document.querySelector("#id1");
 
 // testClassElement()
+
+// consoleLog is trying to get output to the terminal about something in the html
+// Any output from code in the js script will output to the terminal on the inspect tab
+
+// Text input boxes use the value attribute of the current object
+//parseInt() -> converts string to whole number
+//parseFloat() -> converts string to a decimal
